@@ -1,0 +1,55 @@
+.Name{
+    font-family:  'Lobster', cursive;
+}
+
+.portada{
+    width: 100%;
+    height: 550px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../../img/Background.jpg);
+    background-repeat: no-repeat       
+}
+
+#Frases{
+    color:#171616;
+    font-size: 50px;
+    padding-top: 150px;
+    margin-right: 150px;
+    text-align:right;
+    font-family: 'Bebas Neue', cursive;
+    text-shadow:2px 2px  white;
+}
+
+.carta{
+    width:50%;
+    height: auto;
+    
+    
+}
+
+.seccion{
+    margin-top:20px;
+}
+
+
+@media (max-width: 600px) {
+    
+    .carta{
+        width:100%;
+        height: auto;
+        
+    }
+
+    #Frases{
+        
+        font-size: 38px;
+        padding-top: 170px;
+        margin-right: 25px;
+        
+    }
+    
+    
+}
+  
+
