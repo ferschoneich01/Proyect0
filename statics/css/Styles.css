@@ -23,13 +23,20 @@
 
 .carta{
     width:50%;
-    height: auto;
+    height: 500px;
     
     
 }
 
 .seccion{
+    margin-left: 5px;
     margin-top:20px;
+    height: 700px;
+}
+
+#imgHistory{
+    width: 100%;
+    height: 100%;
 }
 
 
