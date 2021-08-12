@@ -8,7 +8,8 @@
     background-position: center;
     background-size: cover;
     background-image: url(../../img/Background.jpg);
-    background-repeat: no-repeat       
+    background-repeat: no-repeat
+           
 }
 
 #Frases{
@@ -22,7 +23,7 @@
 }
 
 .carta{
-    width:100%;
+    width:50%;
     height: 500px;
     
     
@@ -30,13 +31,19 @@
 
 .seccion{
     margin-left: 5px;
+    margin-bottom: 20px;
     margin-top:20px;
-    height: 700px;
+    height: 500px;
 }
 
 #imgHistory{
-    width: 100%;
+    width: 50%;
     height: 500px;
+    
+}
+
+#historia{
+    font-size: 14px;
 }
 
 
@@ -44,10 +51,15 @@
     
     .carta{
         width:100%;
-        height: auto;
+        height: 400px;
         
     }
-
+    #imgHistory{
+        margin-top: 2px;
+        width: 100%;
+        height: 250px;
+        
+    }
     #Frases{
         
         font-size: 38px;
@@ -55,7 +67,13 @@
         margin-right: 25px;
         
     }
-    
+    #historia{
+        font-size: 12px;
+    }
+
+    .seccion{
+        height: 1400px;
+    }
     
 }
 
